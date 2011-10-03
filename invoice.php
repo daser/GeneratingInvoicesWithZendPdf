@@ -5,7 +5,7 @@ require_once "Zend/Loader/Autoloader.php";
 
 $loader = Zend_Loader_Autoloader::getInstance();
 
-$invoice = Zend_Pdf::load("/path/to/invoice-template.pdf");
+$invoice = Zend_Pdf::load("template.pdf");
 $page = $invoice->pages[0];
 
 $customerName = "Angelina Jolie";
