@@ -1,5 +1,7 @@
 <?php
-define("ZF_PATH", realpath("/path/to/zf/library/"));
+ini_set("display_errors", true);
+error_reporting(E_ALL);
+define("ZF_PATH", realpath("../vendor/breerly/zf1/library/"));
 set_include_path(get_include_path() . PATH_SEPARATOR . ZF_PATH);
 require_once "Zend/Loader/Autoloader.php";
 

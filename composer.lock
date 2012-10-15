@@ -1,0 +1,55 @@
+{
+    "hash": "2c63984c94d0fd86b2cfe7cf3a64e5c2",
+    "packages": [
+        {
+            "name": "breerly/zf1",
+            "version": "1.11.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/breerly/zf1",
+                "reference": "1.11.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/breerly/zf1/zipball/1.11.11",
+                "reference": "1.11.11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "time": "2012-05-31 06:45:44",
+            "bin": [
+                "bin/zf.php"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/",
+                    "ZendX_": "extras/library/"
+                }
+            },
+            "include-path": [
+                "library/"
+            ],
+            "description": "Zend Framework 1",
+            "homepage": "https://github.com/breerly/zf1",
+            "keywords": [
+                "zend",
+                "Zend Framework",
+                "ZF1",
+                "zend framework 1",
+                "zf"
+            ]
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
